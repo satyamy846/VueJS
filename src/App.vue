@@ -2,12 +2,17 @@
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import test from './components/Test.vue';
+import login from './components/LoginPage/login.vue';
 </script>
 
 <template>
   
 <!-- <h1>This is homepage</h1> -->
-<router-view/>
+<!-- <router-view/> -->
+<div>
+  <login/>
+</div>
+
 </template>
 
 <style scoped>
